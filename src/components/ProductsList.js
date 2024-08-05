@@ -11,13 +11,24 @@ export const ProductsList = () => {
     try {
       const response = await fetch("http://localhost:3001/products");
       const data = await response.json();
-      console.log(data);
+      setProductsList(data);
     } catch (error) {
       console.log("Error, ", error);
     }
   }
 
   return (
-    <div>ProductsList</div>
+    <section>
+      {productsList && productsList.map((product) =>
+        <div key={product.id} className="card">
+          <div>{product.id}</div>
+          <div>{product.name}</div>
+          <div className="stock">
+            <div>${product.price}</div>
+            <div>{product.is_stock ? "stock" : "unavailable"}</div>
+          </div>
+        </div>
+      )}
+    </section>
   )
 }
