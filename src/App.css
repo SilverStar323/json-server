@@ -15,3 +15,30 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.id {
+  padding: 4px 2px;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  width: 50px;
+  text-align: center;
+  font-size: small;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
