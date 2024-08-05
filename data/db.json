@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 10001,
+      "name": "Basic Advanced in React",
+      "price": 99,
+      "is_stock": true
+    },
+    {
+      "id": 10002,
+      "name": "Blockchain learning in Go",
+      "price": 49,
+      "is_stock": true
+    },
+    {
+      "id": 10003,
+      "name": "React Master Class From Zero",
+      "price": 49,
+      "is_stock": true
+    },
+    {
+      "id": 10004,
+      "name": "Git Learning",
+      "price": 19,
+      "is_stock": false
+    }
+  ]
+}
