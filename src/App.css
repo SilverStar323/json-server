@@ -1,4 +1,12 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -39,6 +47,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  margin-top: 40px;
+  gap: 20px;
 }
